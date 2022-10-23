@@ -7,7 +7,6 @@ public class People {
     String jobTitle;
 
 
-
     People(int yearOfBirth, String name, String town, String jobTitle) {
         if (yearOfBirth > 0) {
             this.yearOfBirth = yearOfBirth;
